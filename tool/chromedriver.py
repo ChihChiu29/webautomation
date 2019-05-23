@@ -18,7 +18,7 @@ from tool import t
 FLAGS = flags.FLAGS
 
 flags.DEFINE_boolean(
-    'headless_mode', True,
+    'headless_mode', False,
     'Run chrome webdriver in headless mode.')
 
 _KILLING_NUM_RETRIES = 5
